@@ -1,0 +1,55 @@
+.button {
+    -fx-background-color: lightblue;
+    -fx-border-color: black;
+    -fx-border-radius: 0;
+    -fx-border-width: .5;
+}
+
+.button:hover {
+    -fx-background-color: aqua;
+}
+
+.button:disabled {
+    -fx-background-color: lightblue;
+    -fx-opacity: .65;
+}
+
+
+
+
+#Mined:disabled {
+    -fx-background-color: red;
+    -fx-opacity:1;
+    -fx-background-image: url('images/bomb.png');
+    -fx-background-position: center;
+}
+
+#SafeBomb:disabled{
+    -fx-background-color: green;
+    -fx-opacity:1;
+    -fx-background-image: url('images/bomb.png');
+    -fx-background-position: center;
+}
+
+#WrongMarkedSquare:disabled{
+    -fx-background-color: yellow;
+    -fx-opacity:1;
+    -fx-background-image: url('images/flag.png');
+
+}
+
+#BombMark{
+    -fx-background-image: url('images/flag.png');
+}
+
+#QuestionMark{
+    -fx-background-image: url('images/QuestionMark.png');
+}
+
+#UnopenedSquare:disabled{
+    -fx-background-color: lightblue;
+    -fx-border-color: black;
+    -fx-border-radius: 0;
+    -fx-border-width: .5;
+    -fx-opacity:1;
+}
